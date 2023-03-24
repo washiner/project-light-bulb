@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+}
+
+header,
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+h1 {
+    color: white;
+    font-size: 60px;
+}
+#photo {
+    width: 300px;
+}
+button {
+  width: 120px;
+  height: 80px;
+  background: #7e638c;
+  color: white;
+  border: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+  transition: 180ms linear;
+}
+button:hover {
+    border: 1px solid #fff;
+    background: #221133;
+    width: 110px;
+    height: 70px;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    45deg, rgb(51, 48, 48), #221133);
+  background-repeat: no-repeat;
+}
+
+
